@@ -7,6 +7,7 @@
     <title>Mirror Fashion</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/hello.js"></script>
     <link rel="shortcut icon" href="img/icon1-bolsa-de-compras.png" type="image/x-icon">
 </head>
 <body>
@@ -35,12 +36,15 @@
     <div class="container destaques">
         <!-- Barra de pesquisa-->
         <section class="busca">
+
             <h2>Buscaa</h2>
 
-            <form>
-                <input type="search">
+            <form action="http://www.google.com.br/search" id="form-busca">
+                <input type="search" name="q" id="q">
                 <input type="image" src="img/busca.png">
+                
             </form>
+            
         </section> 
         <!-- Fim da barra de pesquisa -->
         <!-- Menu departamentos -->
@@ -203,5 +207,20 @@
     </div>
     <!-- Fim dos paineis novidades e itens mais vendidos da loja -->
 
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <img src="img/logo-rodape.png" alt="Logo Mirror Fashion">
+            
+            <ul class="social">
+                <li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
+                <li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
+                <li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>
+            </ul>
+
+        </div>
+    </footer>
+
+    <script src="js/home.js"></script>
 </body>
 </html>
